@@ -71,10 +71,9 @@ export default function ProductCard({
             
               src={image}
               alt={name}
-              // height={300}
-              // width={300}
+              
             
-              className="object-contain w-auto"
+              className="object-contain w-60"
             />
           </CardDescription>
         </CardHeader>
