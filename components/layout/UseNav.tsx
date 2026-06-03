@@ -1,4 +1,4 @@
-
+"use client"
 import React from 'react'
 import {
   Avatar,
@@ -20,6 +20,7 @@ import Link from 'next/link'
 
 export default function UseNav() {
   return (
+
 <DropdownMenu>
 <DropdownMenuTrigger asChild>
   <Button variant="ghost" className="relative h-8 w-8 rounded-full">
