@@ -13,6 +13,7 @@ import {
 import { Button } from "../ui/button";
 
 import { useToast } from "@/components/ui/use-toast";
+import Image from "next/image";
 
 interface ProductCardProps {
   id: string;
@@ -67,12 +68,12 @@ export default function ProductCard({
             {name}
           </CardTitle>
           <CardDescription className="relative w-full h-60">
-            <img
+            <Image
             
               src={image}
               alt={name}
-              // height={300}
-              // width={300}
+               height={200}
+               width={200}
             
               className="object-contain w-auto"
             />
